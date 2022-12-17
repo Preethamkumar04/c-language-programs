@@ -1,0 +1,48 @@
+#include <stdio.h>
+
+int main()
+{
+    int num,a,b,sum;
+    printf("enter the method:");
+    scanf("%d",&num);
+    switch(num)
+    {
+        case 1:
+        printf("ADDITION METHOD\n");
+        printf("enter the values of a:\n");
+        scanf("%d",&a);
+        printf("enter the values of b:\n");
+        scanf("%d",&b);
+        sum=a+b;
+        printf("the answer is:%d",sum);
+        break;
+        case 2:
+        printf("SUBTRACTION METHOD\n");
+        printf("enter the values of a:\n");
+         scanf("%d",&a);
+        printf("enter the values of b:\n");
+        scanf("%d",&b);
+        sum=a-b;
+        printf("the answer is:%d",sum);
+        break;
+        case 3:
+        printf("MULTIPLICATION METHOD\n");
+        printf("enter the values of a:\n");
+         scanf("%d",&a);
+        printf("enter the values of b:\n");
+        scanf("%d",&b);
+        sum=a*b;
+        printf("the answer is:%d",sum);
+        break;
+        case 4:
+        printf("DIVISION METHOD\n");
+        printf("enter the values of a:\n");
+        scanf("%d",&a);
+        printf("enter the values of b:\n");
+        scanf("%d",&b);
+        sum=a/b;
+        printf("the answer is:%d",sum);
+        break;
+    }
+    return 0;
+}
